@@ -1,11 +1,8 @@
 import getBuffer from '../arraybuffer/getBuffer';
 import ArrayBufferConverter from '../arraybuffer/ArrayBufferConverter';
 
-
-
-
 test('class "ArrayBufferConverter" has "load" and "toString" methods', () => {
-  
+
   const arrayBufferConverter = new ArrayBufferConverter();
 
   expect(arrayBufferConverter.load).toBeDefined();
